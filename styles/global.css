@@ -1,0 +1,79 @@
+body{
+	max-width: 1260px;
+	background-color: #FFC2EB;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	color: #FF0066;
+}
+h2{
+	text-align: center;
+	color:#FF0066;
+}
+#media{
+	float:left;
+	max-width: 300px;
+	position: fixed;
+}
+#media ul{
+	list-style-type: none;
+}
+#media ul li{
+	text-decoration: none;
+}
+#content{
+	float: left;
+	max-width: 900px;
+	margin-left: 150px;
+}
+/*three_columns.html*/
+#columns{
+	max-width: 900px;
+}
+#section-one{
+	float: left;
+	max-width: 100px;
+	margin-right: 0px;
+	margin-left: 30px;
+	outline: solid 1px blue;
+	text-align: center;
+
+}
+#section-two{
+	float: left;
+	margin-right: 20px;
+	margin-left: 150px;
+	max-width: 500px;
+	background-color:#FFCCE0;
+	outline: solid 1px red;
+
+}
+#section-three{
+	float: left;
+	max-width: 200px;
+	background-color: #FFCCE0;
+	outline: solid 1px green;
+}
+#section-three h3{
+	text-align: center;
+}
+#section-three ul{
+	list-style-type: none;
+}
+#section-three ul li a{
+	text-decoration: none;
+}
+#section-three a:hover{
+	color:#FF0066;
+}
+/*gallery.html*/
+#gallery{
+	max-width: 360px;
+	max-height: 175px;
+
+}
+#gallery img{
+	float: left;
+	padding: 5px;
+}
